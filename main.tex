@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.3, 30 April 2017) written by
+% LianTze Lim (liantze@gmail.com), based on the 
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options. 
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[9pt,a4paper]{altacv}
+
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=7mm,right=9cm,marginparwidth=6.8cm,marginparsep=.5cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+\usepackage{eurosym}
+\usepackage{amstext} % for \text
+\DeclareRobustCommand{\officialeuro}{%
+  \ifmmode\expandafter\text\fi
+  {\fontencoding{U}\fontfamily{eurosym}\selectfont e}}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{100000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+%% sample.bib contains your publications
+\addbibresource{publications.bib}
+
+% \usepackage{fontawesome5}
+
+\begin{document}
+
+\name{Daniel Iong}
+\tagline{Ph.D Candidate in Statistics}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+% \photo{2.5cm}{Um_pic.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+
+  \vspace{3pt}
+  \homepage{danieliong.me}
+  \github{https://github.com/danieliong}
+  \linkedin{https://www.linkedin.com/in/danieliong/}
+  \vspace{pt}
+
+  \location{Ann Arbor, MI} 
+  % \mailaddress{635 Hidden Valley Club Drive Apt 211, Ann Arbor MI 48104}
+  \email{daniong@umich.edu}
+  \phone{510-816-8686}
+  \printinfo{\faPassport}{US Citizen}
+  
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\setlength\marginparwidth{8cm}
+
+% \cvsection[page1sidebar]{Education}
+
+% \cvevent{Ph.D Statistics}{University of Michigan, Ann Arbor}{2017 - 2022 (expected)}{Ann Arbor, MI}
+
+% \divider
+
+% \cvevent{B.S. Statistics (high honors) \\ B.A. Economics (honors)}{University of California, Davis}{2013 - 2017}{Davis, CA}
+
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Research Experience}
+
+\cvevent{Graduate Student Research Assistant}{University of Michigan, Ann Arbor, Department of Statistics}{Aug. 2018 - present}{}
+
+\vspace{4pt}
+
+\begin{project}{A Latent Mixture Model for Heterogeneous Causal Mechanisms in Mendelian Randomization}{\faChartLine}
+  % \setlength{\parskip}{2mm}
+  % \setlength\itemsep{2mm}
+  % \def\labelitemi{\faChartLine}
+  \item Developed novel probabilistic clustering method for causal inference
+  in Epidemiology (Mendelian Randomization)
+  \item Implemented Monte-Carlo EM algorithm in C++ and R to perform
+    statistical inference. 
+  \item Invited to present method and results to statisticians and medical
+    researchers at international seminars 
+  \item[\faGithub] Developed R package: \url{https://github.com/danieliong/MRPATH}
+  \item[\faLink] Created website to showcase method: \url{danieliong.me/mr-path/}
+\end{project}
+
+\divider
+
+\begin{project}{Machine learning methods for predicting geomagnetic indices (ongoing)}{\faChartLine}
+  \item Applied machine learning and time series methods to forecast geomagnetic
+  activity in collaboration with space weather researchers
+  \item Wrote data pre-processing and analysis tools tailored for geomagnetic
+  data using Scikit-learn, Tensorflow, Pytorch
+  \vspace{2pt}
+  \begin{itemize}[leftmargin=18pt]
+    \item[\faGithub] Python module: \url{https://github.com/danieliong/GeoMagTS}
+  \end{itemize}
+  \item[\faGithub] Code for analysis: \url{https://github.com/danieliong/SYMH-Prediction}  
+\end{project}
+
+% \vspace{-8pt}
+\vspace{7pt}
+
+\cvevent{Undergraduate Research Assistant}{University of California, Davis, Department of Statistics}{Apr. 2016 - Apr. 2017}{}
+
+\vspace{4pt}
+
+\begin{project}{NSF-funded Research Project: Predicting Dynamics for functional data}{\faChartLine}
+  \item Analyzed economic data using functional data analysis methods in R.
+  \item Extended existing empirical dynamics model to include covariates to increase coefficient of determination.  
+\end{project}
+
+\divider
+
+\begin{project}{Undergraduate Honors Thesis: Toward a spatial-temporal analysis of pesticide concentrations}{\faChartLine}
+  \item Implemented EM algorithm in R to fit state-space model to pesticide
+  concentrations data containing missing values. 
+\end{project}
+
+\divider 
+
+\begin{project}{NSF-funded Research Project: Processing and analyzing data from the Human Connectome Project}{\faChartLine}
+  \item Applied principal components analysis and canonical correlation analysis
+  to study the relationships between behavioral and cortical measures in R
+\end{project}
+
+% \vspace{3pt}
+
+\cvsection{Teaching Experience}
+
+\cvevent{Graduate Student Instructor}{University of Michigan, Ann Arbor}{Aug. 2018 - Apr. 2020}{}
+
+% \vspace{4pt}
+
+\projectheader{STATS551: Bayesian Modeling and Computation (graduate)}{\faChalkboardTeacher}
+
+\projectheader{STATS451: Bayesian Data Analysis (undergraduate)}{\faChalkboardTeacher}
+
+\projectheader{STATS 250: Intro. to Statistics and Data Analysis (undergraduate)}{\faChalkboardTeacher}
+
+\smallskip
+
+\begin{itemize}
+  \item Prepared lectures on advanced topics in Bayesian modeling.
+  \item Created and graded homework assignments.
+  \item Advised students on exclusive projects in applied Bayesian analysis.
+  \item Taught two weekly labs on basic concepts in statistics.
+  \item Held weekly office hours to answer questions about course material and homework. 
+\end{itemize}
+
+% \begin{project}{STATS 551: Bayesian Modeling and Computation (graduate)}{\faChalkboardTeacher}
+%   \item Prepared several lectures on advanced topics in Bayesian modeling.
+%   \item Created and graded homework assignments with two other PhD students.
+%   \item Advised students on extensive projects in applied Bayesian analysis.
+% \end{project}
+
+% \divider
+
+% \begin{project}{STATS 451: Bayesian Data Analysis (undergraduate)}{\faChalkboardTeacher}
+%   \item Created and graded bi-weekly homework assignments.
+%   \item Held weekly office hours to answer questions about homework and lectures.
+%   \item Advised students on extensive projects in applied Bayesian analysis.
+% \end{project}
+
+% \divider
+
+% \begin{project}{STATS 250: Intro. to Statistics and Data Analysis (undergraduate)}{\faChalkboardTeacher}
+%   \item Taught two weekly lab sessions on basic concepts in statistics.
+%   \item Held office hours and graded homeworks on a weekly basis.
+% \end{project}
+
+
+\clearpage
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}

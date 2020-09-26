@@ -1,0 +1,1506 @@
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.9.24)  25 SEP 2020 17:03
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**"/Users/daniong/Dropbox (University of Michigan)/resume/main.tex"
+("/Users/daniong/Dropbox (University of Michigan)/resume/main.tex"
+LaTeX2e <2020-02-02> patch level 5
+Lua module: luaotfload-main 2020-09-02 3.15 luaotfload entry point
+Lua module: luaotfload-init 2020-09-02 3.15 luaotfload submodule / initialization
+Lua module: lualibs 2020-08-31 2.72 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-08-31 2.72 ConTeXt Lua libraries -- extended collection.
+Lua module: luaotfload-log 2020-09-02 3.15 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-09-02 3.15 luaotfload submodule / parsers
+Lua module: luaotfload-configuration 2020-09-02 3.15 luaotfload submodule / config file reader
+luaotfload | conf : Root cache directory is "/Users/daniong/Library/texlive/2020/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2020-08-31.lua" from kpse-resolved path "/usr/local/texlive/2020/texmf-dist/tex/luatex/luaotfload/fontloader-2020-08-31.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
+Lua module: luaotfload-fallback 2020-09-02 3.15 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-09-02 3.15 luaotfload submodule / multiscript
+Lua module: luaotfload-script 2020-09-02 3.15 luaotfload submodule / Script helpers
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Lua module: luaotfload-loaders 2020-09-02 3.15 luaotfload submodule / callback handling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-09-02 3.15 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-09-02 3.15 luaotfload submodule / Unicode helpers
+Lua module: luaotfload-colors 2020-09-02 3.15 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 3
+Lua module: luaotfload-resolvers 2020-09-02 3.15 luaotfload submodule / resolvers
+luaotfload | conf : Root cache directory is "/Users/daniong/Library/texlive/2020/texmf-var/luatex-cache/generic/names".
+Lua module: luaotfload-features 2020-09-02 3.15 luaotfload submodule / features
+Lua module: luaotfload-harf-define 2020-09-02 3.15 luaotfload submodule / HarfBuzz font loading
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Lua module: luaotfload-harf-plug 2020-09-02 3.15 luaotfload submodule / HarfBuzz shaping
+Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'.
+Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
+Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
+Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
+Lua module: luaotfload-letterspace 2020-09-02 3.15 luaotfload submodule / letterspacing
+Lua module: luaotfload-embolden 2020-09-02 3.15 luaotfload submodule / embolden
+Lua module: luaotfload-notdef 2020-09-02 3.15 luaotfload submodule / notdef
+Lua module: luaotfload-suppress 2020-09-02 3.15 luaotfload submodule / suppress
+Lua module: luaotfload-szss 2020-09-02 3.15 luaotfload submodule / Special feature handling
+Lua module: luaotfload-auxiliary 2020-09-02 3.15 luaotfload submodule / auxiliary functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-tounicode 2020-09-02 3.15 luaotfload submodule / tounicode
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'. L3 programming layer <2020-09-06> ("/Users/daniong/Dropbox (University of Michigan)/resume/altacv.cls"
+Document Class: altacv 2017/04/30 AltaCV v1.1.3, yet another alternative class for a résumé/curriculum vitae.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/daniong/Library/texlive/2020/texmf-var/luatex-cache/generic/names/luaotfload-names.luc) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen134
+)
+\c@part=\count164
+\c@section=\count165
+\c@subsection=\count166
+\c@subsubsection=\count167
+\c@paragraph=\count168
+\c@subparagraph=\count169
+\c@figure=\count170
+\c@table=\count171
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen135
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count172
+\Gm@cntv=\count173
+\c@Gm@tempcnt=\count174
+\Gm@bindingoffset=\dimen136
+\Gm@wd@mp=\dimen137
+\Gm@odd@mp=\dimen138
+\Gm@even@mp=\dimen139
+\Gm@layoutwidth=\dimen140
+\Gm@layoutheight=\dimen141
+\Gm@layouthoffset=\dimen142
+\Gm@layoutvoffset=\dimen143
+\Gm@dimlist=\toks16
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-09-06 L3 programming layer (loader) 
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2020-09-11 L3 backend support: PDF output (LuaTeX)
+\l__kernel_color_stack_int=\count175
+\l__pdf_internal_box=\box45
+))
+Package: fontawesome5 2020/03/24 v5.13.0 Font Awesome 5
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count176
+\g__xparse_grabber_int=\count177
+\l__xparse_m_args_int=\count178
+\l__xparse_v_nesting_int=\count179
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome5/fontawesome5-utex-helper.sty
+Package: fontawesome5-utex-helper 2020/03/24 v5.13.0 uTeX helper for fontawesome5
+ (/usr/local/texlive/2020/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+ (/usr/local/texlive/2020/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count180
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on input line 69.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on input line 70.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd))) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count181
+\l__fontspec_language_int=\count182
+\l__fontspec_strnum_int=\count183
+\l__fontspec_tmp_int=\count184
+\l__fontspec_tmpa_int=\count185
+\l__fontspec_tmpb_int=\count186
+\l__fontspec_tmpc_int=\count187
+\l__fontspec_em_int=\count188
+\l__fontspec_emdef_int=\count189
+\l__fontspec_strong_int=\count190
+\l__fontspec_strongdef_int=\count191
+\l__fontspec_tmpa_dim=\dimen144
+\l__fontspec_tmpb_dim=\dimen145
+\l__fontspec_tmpc_dim=\dimen146
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from /Users/daniong/Library/texlive/2020/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 30 (nil) defines no feature for script latn
+luaotfload | aux : font no 30 (nil) defines no feature for script dflt
+
+Package fontspec Info: Could not resolve font "FontAwesome/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FontAwesome/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FontAwesome/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FontAwesome(0)' created for font
+(fontspec)             'FontAwesome' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FontAwesome:mode=node;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xeluatex.tex)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2020/08/26 v1.2 Graphics/color driver for luatex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen147
+\pgfutil@tempdimb=\dimen148
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box46
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+)
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen151
+\pgf@y=\dimen152
+\pgf@xa=\dimen153
+\pgf@ya=\dimen154
+\pgf@xb=\dimen155
+\pgf@yb=\dimen156
+\pgf@xc=\dimen157
+\pgf@yc=\dimen158
+\pgf@xd=\dimen159
+\pgf@yd=\dimen160
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count192
+\c@pgf@countb=\count193
+\c@pgf@countc=\count194
+\c@pgf@countd=\count195
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count196
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-luatex.def
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count197
+\pgfsyssoftpath@bigbuffer@items=\count198
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen161
+\pgfmath@count=\count199
+\pgfmath@box=\box47
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count266
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen162
+\pgf@picmaxx=\dimen163
+\pgf@picminy=\dimen164
+\pgf@picmaxy=\dimen165
+\pgf@pathminx=\dimen166
+\pgf@pathmaxx=\dimen167
+\pgf@pathminy=\dimen168
+\pgf@pathmaxy=\dimen169
+\pgf@xx=\dimen170
+\pgf@xy=\dimen171
+\pgf@yx=\dimen172
+\pgf@yy=\dimen173
+\pgf@zx=\dimen174
+\pgf@zy=\dimen175
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen176
+\pgf@path@lasty=\dimen177
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen178
+\pgf@shorten@start@additional=\dimen179
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box48
+\pgf@hbox=\box49
+\pgf@layerbox@main=\box50
+\pgf@picture@serial@count=\count267
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen180
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen181
+\pgf@pt@y=\dimen182
+\pgf@pt@temp=\dimen183
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen184
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen185
+\pgf@sys@shading@range@num=\count268
+\pgf@shadingcount=\count269
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box51
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box52
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count270
+\pgfplotmarksize=\dimen190
+)
+\tikz@lastx=\dimen191
+\tikz@lasty=\dimen192
+\tikz@lastxsaved=\dimen193
+\tikz@lastysaved=\dimen194
+\tikz@lastmovetox=\dimen195
+\tikz@lastmovetoy=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box53
+\tikz@figbox@bg=\box54
+\tikz@tempbox=\box55
+\tikz@tempbox@bg=\box56
+\tikztreelevel=\count271
+\tikznumberofchildren=\count272
+\tikznumberofcurrentchild=\count273
+\tikz@fig@count=\count274
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count275
+\pgfmatrixcurrentcolumn=\count276
+\pgf@matrix@numberofcolumns=\count277
+)
+\tikz@expandcount=\count278
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen199
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2020/09/17 version 4.32 text color boxes
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks29
+\verbatim@line=\toks30
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks31
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+)
+\tcb@titlebox=\box57
+\tcb@upperbox=\box58
+\tcb@lowerbox=\box59
+\tcb@phantombox=\box60
+\c@tcbbreakpart=\count280
+\c@tcblayer=\count281
+\c@tcolorbox@number=\count282
+\tcb@temp=\box61
+\tcb@temp=\box62
+\tcb@temp=\box63
+\tcb@temp=\box64
+\tcb@out=\write4
+\tcb@record@out=\write5
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.32'
+\tcb@waterbox=\box65
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.32'
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen256
+\enit@toks=\toks32
+\enit@inbox=\box66
+\enit@count@id=\count283
+\enitdp@description=\count284
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/dashrule/dashrule.sty
+Package: dashrule 2013/03/28 v1.3 Dashed rules
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)
+\c@hdr@segments=\count285
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count286
+\multirow@dima=\skip51
+\bigstrutjot=\dimen257
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen258
+\ar@mcellbox=\box67
+\extrarowheight=\dimen259
+\NC@list=\toks33
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box68
+)
+\TX@col@width=\dimen260
+\TX@old@table=\dimen261
+\TX@old@col=\dimen262
+\TX@target=\dimen263
+\TX@delta=\dimen264
+\TX@cols=\count287
+\TX@ftn=\toks34
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count288
+\cp@tempcnt=\count289
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks35
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count290
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count291
+\c@listtotal=\count292
+\c@listcount=\count293
+\c@liststart=\count294
+\c@liststop=\count295
+\c@citecount=\count296
+\c@citetotal=\count297
+\c@multicitecount=\count298
+\c@multicitetotal=\count299
+\c@instcount=\count300
+\c@maxnames=\count301
+\c@minnames=\count302
+\c@maxitems=\count303
+\c@minitems=\count304
+\c@citecounter=\count305
+\c@maxcitecounter=\count306
+\c@savedcitecounter=\count307
+\c@uniquelist=\count308
+\c@uniquename=\count309
+\c@refsection=\count310
+\c@refsegment=\count311
+\c@maxextratitle=\count312
+\c@maxextratitleyear=\count313
+\c@maxextraname=\count314
+\c@maxextradate=\count315
+\c@maxextraalpha=\count316
+\c@abbrvpenalty=\count317
+\c@highnamepenalty=\count318
+\c@lownamepenalty=\count319
+\c@maxparens=\count320
+\c@parenlevel=\count321
+\blx@tempcnta=\count322
+\blx@tempcntb=\count323
+\blx@tempcntc=\count324
+\blx@maxsection=\count325
+\blx@maxsegment@0=\count326
+\blx@notetype=\count327
+\blx@parenlevel@text=\count328
+\blx@parenlevel@foot=\count329
+\blx@sectionciteorder@0=\count330
+\blx@entrysetcounter=\count331
+\blx@biblioinstance=\count332
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
+\blx@bcfin=\read4
+\blx@bcfout=\write6
+\blx@langwohyphens=\language2
+\c@mincomprange=\count333
+\c@maxcomprange=\count334
+\c@mincompwidth=\count335
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count336
+\c@savedafterword=\count337
+\c@annotator=\count338
+\c@savedannotator=\count339
+\c@author=\count340
+\c@savedauthor=\count341
+\c@bookauthor=\count342
+\c@savedbookauthor=\count343
+\c@commentator=\count344
+\c@savedcommentator=\count345
+\c@editor=\count346
+\c@savededitor=\count347
+\c@editora=\count348
+\c@savededitora=\count349
+\c@editorb=\count350
+\c@savededitorb=\count351
+\c@editorc=\count352
+\c@savededitorc=\count353
+\c@foreword=\count354
+\c@savedforeword=\count355
+\c@holder=\count356
+\c@savedholder=\count357
+\c@introduction=\count358
+\c@savedintroduction=\count359
+\c@namea=\count360
+\c@savednamea=\count361
+\c@nameb=\count362
+\c@savednameb=\count363
+\c@namec=\count364
+\c@savednamec=\count365
+\c@translator=\count366
+\c@savedtranslator=\count367
+\c@shortauthor=\count368
+\c@savedshortauthor=\count369
+\c@shorteditor=\count370
+\c@savedshorteditor=\count371
+\c@labelname=\count372
+\c@savedlabelname=\count373
+\c@institution=\count374
+\c@savedinstitution=\count375
+\c@lista=\count376
+\c@savedlista=\count377
+\c@listb=\count378
+\c@savedlistb=\count379
+\c@listc=\count380
+\c@savedlistc=\count381
+\c@listd=\count382
+\c@savedlistd=\count383
+\c@liste=\count384
+\c@savedliste=\count385
+\c@listf=\count386
+\c@savedlistf=\count387
+\c@location=\count388
+\c@savedlocation=\count389
+\c@organization=\count390
+\c@savedorganization=\count391
+\c@origlocation=\count392
+\c@savedoriglocation=\count393
+\c@origpublisher=\count394
+\c@savedorigpublisher=\count395
+\c@publisher=\count396
+\c@savedpublisher=\count397
+\c@language=\count398
+\c@savedlanguage=\count399
+\c@origlanguage=\count400
+\c@savedoriglanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
+\locallabelnumberwidth=\skip68
+\locallabelalphawidth=\skip69
+\localshorthandwidth=\skip70
+\localshortjournalwidth=\skip71
+\localshortserieswidth=\skip72
+\localshorttitlewidth=\skip73
+\localshortauthorwidth=\skip74
+\localshorteditorwidth=\skip75
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: expl3
+(biblatex)             2020-09-06 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+Package biblatex Info: Trying to load expl3 case changing code...
+Package biblatex Info: ... file 'blx-case-expl3.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-case-expl3.def
+File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlbigbreakpenalty=\count407
+\c@biburlbreakpenalty=\count408
+\c@biburlnumpenalty=\count409
+\c@biburlucpenalty=\count410
+\c@biburllcpenalty=\count411
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count412
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count413
+\c@bbx:relatedtotal=\count414
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks36
+\AP@partial=\box69
+\AP@footins=\box70
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks37
+\inpenc@posthook=\toks38
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/lato/lato.sty
+Package: lato 2019/06/20 Style file for Lato.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count415
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 51 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'lato-TLF' created for font 'Lato' with
+(fontspec)             options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=1,FontFace={ul}{n}{*-Hairline},FontFace={ul}{it}{*-HairlineItalic},FontFace={el}{n}{*-Thin},FontFace={el}{it}{*-ThinItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={mb}{n}{*-Medium},FontFace={mb}{it}{*-MediumItalic},FontFace={sb}{n}{*-Semibold},FontFace={sb}{it}{*-SemiboldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={eb}{n}{*-Heavy},FontFace={eb}{it}{*-HeavyItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},Numbers={Monospaced,Lining},NFSSFamily=lato-TLF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Hairline.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ul/sc) with NFSS spec.: 
+(fontspec)             - (ul/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HairlineItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ul/scit) with NFSS spec.: 
+(fontspec)             - (el/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Thin.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (el/sc) with NFSS spec.: 
+(fontspec)             - (el/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-ThinItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (el/scit) with NFSS spec.: 
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (mb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Medium.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (mb/sc) with NFSS spec.: 
+(fontspec)             - (mb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-MediumItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (mb/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Semibold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-SemiboldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Heavy.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HeavyItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - (ub/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Black.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ub/sc) with NFSS spec.: 
+(fontspec)             - (ub/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BlackItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ub/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 51 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'lato-LF' created for font 'Lato' with
+(fontspec)             options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=1,FontFace={ul}{n}{*-Hairline},FontFace={ul}{it}{*-HairlineItalic},FontFace={el}{n}{*-Thin},FontFace={el}{it}{*-ThinItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={mb}{n}{*-Medium},FontFace={mb}{it}{*-MediumItalic},FontFace={sb}{n}{*-Semibold},FontFace={sb}{it}{*-SemiboldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={eb}{n}{*-Heavy},FontFace={eb}{it}{*-HeavyItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},Numbers={Proportional,Lining},NFSSFamily=lato-LF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Hairline.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (ul/sc) with NFSS spec.: 
+(fontspec)             - (ul/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HairlineItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (ul/scit) with NFSS spec.: 
+(fontspec)             - (el/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Thin.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (el/sc) with NFSS spec.: 
+(fontspec)             - (el/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-ThinItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (el/scit) with NFSS spec.: 
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (mb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Medium.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (mb/sc) with NFSS spec.: 
+(fontspec)             - (mb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-MediumItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (mb/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Semibold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-SemiboldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Heavy.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HeavyItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - (ub/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Black.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (ub/sc) with NFSS spec.: 
+(fontspec)             - (ub/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BlackItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             -  (ub/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 51 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'lato-TOsF' created for font 'Lato' with
+(fontspec)             options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=1,FontFace={ul}{n}{*-Hairline},FontFace={ul}{it}{*-HairlineItalic},FontFace={el}{n}{*-Thin},FontFace={el}{it}{*-ThinItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={mb}{n}{*-Medium},FontFace={mb}{it}{*-MediumItalic},FontFace={sb}{n}{*-Semibold},FontFace={sb}{it}{*-SemiboldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={eb}{n}{*-Heavy},FontFace={eb}{it}{*-HeavyItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},Numbers={Monospaced,OldStyle},NFSSFamily=lato-TOsF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Hairline.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (ul/sc) with NFSS spec.: 
+(fontspec)             - (ul/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HairlineItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (ul/scit) with NFSS spec.: 
+(fontspec)             - (el/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Thin.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (el/sc) with NFSS spec.: 
+(fontspec)             - (el/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-ThinItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (el/scit) with NFSS spec.: 
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (mb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Medium.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (mb/sc) with NFSS spec.: 
+(fontspec)             - (mb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-MediumItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (mb/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Semibold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-SemiboldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Heavy.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HeavyItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - (ub/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Black.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (ub/sc) with NFSS spec.: 
+(fontspec)             - (ub/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BlackItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             -  (ub/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 51 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'lato-OsF' created for font 'Lato' with
+(fontspec)             options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=1,FontFace={ul}{n}{*-Hairline},FontFace={ul}{it}{*-HairlineItalic},FontFace={el}{n}{*-Thin},FontFace={el}{it}{*-ThinItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={mb}{n}{*-Medium},FontFace={mb}{it}{*-MediumItalic},FontFace={sb}{n}{*-Semibold},FontFace={sb}{it}{*-SemiboldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={eb}{n}{*-Heavy},FontFace={eb}{it}{*-HeavyItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},Numbers={Proportional,OldStyle},NFSSFamily=lato-OsF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Hairline.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (ul/sc) with NFSS spec.: 
+(fontspec)             - (ul/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HairlineItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (ul/scit) with NFSS spec.: 
+(fontspec)             - (el/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Thin.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (el/sc) with NFSS spec.: 
+(fontspec)             - (el/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-ThinItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (el/scit) with NFSS spec.: 
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (mb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Medium.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (mb/sc) with NFSS spec.: 
+(fontspec)             - (mb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-MediumItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (mb/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Semibold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-SemiboldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Heavy.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HeavyItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - (ub/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Black.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (ub/sc) with NFSS spec.: 
+(fontspec)             - (ub/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BlackItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             -  (ub/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 51 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'fla' created for font 'Lato' with options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=1,FontFace={ul}{n}{*-Hairline},FontFace={ul}{it}{*-HairlineItalic},FontFace={el}{n}{*-Thin},FontFace={el}{it}{*-ThinItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={mb}{n}{*-Medium},FontFace={mb}{it}{*-MediumItalic},FontFace={sb}{n}{*-Semibold},FontFace={sb}{it}{*-SemiboldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={eb}{n}{*-Heavy},FontFace={eb}{it}{*-HeavyItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},Numbers={Monospaced,Lining},NFSSFamily=fla].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Hairline.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ul/sc) with NFSS spec.: 
+(fontspec)             - (ul/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HairlineItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ul/scit) with NFSS spec.: 
+(fontspec)             - (el/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Thin.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (el/sc) with NFSS spec.: 
+(fontspec)             - (el/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-ThinItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (el/scit) with NFSS spec.: 
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (mb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Medium.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (mb/sc) with NFSS spec.: 
+(fontspec)             - (mb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-MediumItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (mb/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Semibold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-SemiboldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Heavy.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HeavyItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - (ub/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Black.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ub/sc) with NFSS spec.: 
+(fontspec)             - (ub/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BlackItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ub/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 51 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'Lato(0)' created for font 'Lato' with
+(fontspec)             options
+(fontspec)             [Ligatures=TeX,Extension=.ttf,Ligatures={TeX,Common},Scale=1,FontFace={ul}{n}{*-Hairline},FontFace={ul}{it}{*-HairlineItalic},FontFace={el}{n}{*-Thin},FontFace={el}{it}{*-ThinItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={mb}{n}{*-Medium},FontFace={mb}{it}{*-MediumItalic},FontFace={sb}{n}{*-Semibold},FontFace={sb}{it}{*-SemiboldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={eb}{n}{*-Heavy},FontFace={eb}{it}{*-HeavyItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},Numbers={Monospaced,Lining}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Hairline.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ul/sc) with NFSS spec.: 
+(fontspec)             - (ul/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HairlineItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ul/scit) with NFSS spec.: 
+(fontspec)             - (el/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Thin.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (el/sc) with NFSS spec.: 
+(fontspec)             - (el/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-ThinItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (el/scit) with NFSS spec.: 
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (mb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Medium.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (mb/sc) with NFSS spec.: 
+(fontspec)             - (mb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-MediumItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (mb/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Semibold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-SemiboldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Heavy.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-HeavyItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - (ub/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Black.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ub/sc) with NFSS spec.: 
+(fontspec)             - (ub/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-BlackItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             -  (ub/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Lato-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 156.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box71
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen265
+))
+LaTeX Info: Redefining \officialeuro on input line 48.
+\@quotelevel=\count416
+\@quotereset=\count417
+ ("/Users/daniong/Dropbox (University of Michigan)/resume/main.aux")
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 76.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(19.91692pt, 321.51616pt, 256.0748pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=321.51616pt
+* \textheight=788.14136pt
+* \oddsidemargin=-52.35307pt
+* \evensidemargin=-52.35307pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=9.0pt
+* \footskip=30.0pt
+* \marginparwidth=193.47882pt
+* \marginparsep=14.22636pt
+* \columnsep=10.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 76.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 76.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 76.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 76.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 76.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 76.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 76.
+LaTeX Font Info:    Redeclaring math accent \check on input line 76.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 76.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 76.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 76.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Lato(0)/m/n on input line 76.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Lato(0)/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Lato(0)/m/n --> TU/Lato(0)/m/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Lato(0)/m/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Lato(0)/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Lato(0)/m/n --> TU/Lato(0)/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Lato(0)/b/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 76.
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count418
+\scratchdimen=\dimen266
+\scratchbox=\box72
+\nofMPsegments=\count419
+\nofMParguments=\count420
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count421
+\MPscratchDim=\dimen267
+\MPnumerator=\count422
+\makeMPintoPDFobject=\count423
+\everyMPtoPDFconversion=\toks43
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout6 = main.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 76.
+Package biblatex Info: Reference segment=0 on input line 76.
+\c@mv@tabular=\count424
+\c@mv@boldtabular=\count425
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 103.
+No file TUptm.fd.
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 103.
+
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 103.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 103.
+LaTeX Font Info:    Font shape `TU/Lato(0)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 103.
+
+LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 103.
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 103.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 103.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 103.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6> on input line 103.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 103.
+/Users/daniong/Dropbox (University of Michigan)/resume/main.tex:103: Missing number, treated as zero.
+<to be read again> 
+p
+l.103 \makecvheader
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+("/Users/daniong/Dropbox (University of Michigan)/resume/page1sidebar.tex"
+LaTeX Font Info:    Font shape `TU/Lato(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 1.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 9.
+LaTeX Font Info:    Font shape `TU/Lato(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 9.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 11.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 25.
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+
+
+LaTeX Warning: Citation 'Iong2020' on page 1 undefined on input line 138.
+
+)
+LaTeX Font Info:    Font shape `TU/Lato(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 127.
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+] ("/Users/daniong/Dropbox (University of Michigan)/resume/main.aux")
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 31586 strings out of 481285
+ 100000,1648299 words of node,token memory allocated
+ 31143 words of node memory still in use:
+   440 hlist, 6 vlist, 15 rule, 106 disc, 33 local_par, 960 glue, 189 kern, 56 penalty, 946 glyph, 1790 attribute, 62 glue_spec, 1790 attribute_list, 4 write, 1089 pdf_literal, 90 pdf_colorstack nodes
+   avail lists: 1:2,2:594,3:1303,4:187,5:671,6:79,7:5479,8:45,9:640,10:13,11:399
+ 47888 multiletter control sequences out of 65536+600000
+ 84 fonts using 22174067 bytes
+ 68i,9n,106p,1185b,1112s stack positions out of 5000i,500n,10000p,200000b,200000s
+</usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf></usr/local/texlive/2020/texmf-dist/fonts/truetype/typoland/lato/Lato-Bold.ttf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf></usr/local/texlive/2020/texmf-dist/fonts/truetype/typoland/lato/Lato-Italic.ttf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on main.pdf (1 page, 79546 bytes).
+
+PDF statistics: 67 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+
